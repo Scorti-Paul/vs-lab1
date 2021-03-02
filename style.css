@@ -1,6 +1,7 @@
-/* body {
-  position: relative;
-} */
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
 div {
   /* margin: 10px 0px; */
   padding: 10px 0px;
@@ -16,7 +17,7 @@ img {
   position: -o-sticky;
   position: -ms-sticky;
   position: sticky;
-  top: 45%;
+  top: 55%;
   left: 60%;
   width: 40%;
   text-align: right;
