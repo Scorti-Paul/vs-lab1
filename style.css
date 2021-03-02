@@ -13,7 +13,7 @@ div.intro {
 img {
   /* position: -webkit-sticky; */
   position: sticky;
-  top: 55%;
+  top: 45%;
   left: 60%;
   width: 40%;
   text-align: right;
@@ -23,13 +23,34 @@ img {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   img {
-    width: 70%;
+    width: 90%;
   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   img {
-    width: 80%;
+    width: 90%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  img {
+    width: 70%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  img {
+    width: 60%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  img {
+    width: 50%;
   }
 }
