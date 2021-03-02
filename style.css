@@ -11,7 +11,7 @@ div.intro {
 }
 
 img {
-  /* position: -webkit-sticky; */
+  position: -webkit-sticky;
   position: sticky; 
   top: 45%;
   left: 60%;
