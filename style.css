@@ -12,13 +12,15 @@ div.intro {
 
 img {
   position: -webkit-sticky;
-  position: sticky; 
+  position: -moz-sticky;
+  position: -o-sticky;
+  position: -ms-sticky;
+  position: sticky;
   top: 45%;
   left: 60%;
   width: 40%;
   text-align: right;
 }
-
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -29,7 +31,7 @@ img {
 }
 
 @supports (-webkit-touch-callout: none) {
-  /* CSS specific to iOS devices */ 
+  /* CSS specific to iOS devices */
   img {
     top: 60%;
   }
