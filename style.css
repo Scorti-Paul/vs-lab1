@@ -28,6 +28,13 @@ img {
   }
 }
 
+@supports (-webkit-touch-callout: none) {
+  /* CSS specific to iOS devices */ 
+  img {
+    top: 60%;
+  }
+}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   img {
